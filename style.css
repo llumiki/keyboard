@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Roboto Mono";
+    font-weight: 700;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#keyboard{
+    display: flex;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+.tecla{
+    background-color: transparent;
+    font-size: 3rem;
+    border: solid white 0.4rem;
+    border-radius: 1rem;
+    padding: 0 1rem;
+
+    cursor: pointer;
+    mix-blend-mode: lighten;
+    transition: 0.2s;
+}
+.tecla:hover{
+    background-color: white;
+    color: black;
+    transform: translateY(-1vh);
+    box-shadow: 0 1vh #cccccc;
+}
+h1{
+    font-size: 5rem;
+    color: black;
+    background-color: white;
+    mix-blend-mode: lighten;
+
+    padding: 3rem 6rem;
+    border-radius: 2rem;
+    user-select: none;
+}
